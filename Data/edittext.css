@@ -18,17 +18,24 @@ textarea:focus, input:focus {
 }
 
 /* LABEL ======================================= */
-label {
+.form-label {
+    display: inline-block;
+    width: 300px;
     color: #999;
     font-size: 18px;
     font-weight: normal;
     position: absolute;
     pointer-events: none;
-    left: 5px;
+    left: 15px;
     top: 10px;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
+}
+
+.form-label-textarea
+{
+    left: 25px;
 }
 
 /* active state */
@@ -118,8 +125,4 @@ textarea:focus ~ .highlight, input:focus ~ .highlight {
         width: 0;
         background: transparent;
     }
-}
-
-.form-label {
-    display: inline-block;
 }

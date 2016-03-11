@@ -179,8 +179,12 @@
 
             <div class="info__elevator">
                 <h1 class="info__elevator-text-blue">
-                    I'm Puneet. <span style="font-weight: 100;">A</span> COEP Student.
+                    Want to get in touch?
                 </h1>
+                <h2 class="subheading">
+                    Fill out the form below.
+                </h2>
+
             </div>
 
             <form class="container-contact-form">
@@ -188,7 +192,7 @@
                     <input type="text" pattern="[A-Z,a-z, ]*" required>
                     <span class="highlight"></span>
                     <span class="bar"></span>
-                    <label>Name</label>
+                    <label class="form-label">Name</label>
                 </div>
 
                 <div class="group" id ="contact-email-group">
@@ -202,13 +206,9 @@
                     <textarea rows="5" type="text" required></textarea>
                     <span class="highlight"></span>
                     <span class="bar"></span>
-                    <label>Messag</label>
+                    <label class="form-label form-label-textarea">Message</label>
                 </div>
 
-                <div class="">
-                    <textarea class="container-contact-form-textarea" type="text" rows="5" id="note"></textarea>
-                    <label class="container-contact-form-notearea" for="note">Enter note</label>
-                </div>
                 <p>
                     <button class="container-contact-form-submit" onclick="validateEmail()">
                         Submit

@@ -57,6 +57,14 @@ h2 {
     font-weight: 700;
 }
 
+.subheading
+{
+    display: block;
+    margin: auto;
+    opacity: 0.6;
+    color: blue;
+    text-align: center;}
+
 /*
 #tag, .info__tag, .main__tag {
     margin: 0 0 20px 0;
@@ -93,7 +101,7 @@ h2 {
 
 .container-contact-form
 {
-    margin: 0 auto;
+    margin: 100px auto;
     width: 600px;
     text-align: center;
     position: relative;
